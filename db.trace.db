@@ -1,0 +1,21 @@
+2023-05-26 22:49:23 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM CATEGORY PRODUCT [*]PRODUCT"; SQL statement:
+SELECT * FROM CATEGORY PRODUCT PRODUCT [42000-214]
+2023-06-02 13:49:10 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]USERS"; expected "UPDATE, USE"; SQL statement:
+USERS [42001-214]
+2023-06-02 22:14:34 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]desc users"; expected "DELETE, DROP, DECLARE, DEALLOCATE"; SQL statement:
+desc users [42001-214]
+2023-06-02 22:14:55 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]DESCRIBE users"; expected "DELETE, DROP, DECLARE, DEALLOCATE"; SQL statement:
+DESCRIBE users [42001-214]
+2023-06-05 13:08:57 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "mfywtpqhdz"; SQL statement:
+select c1_0.order_id,c1_0.additional_information,c1_0.address1,c1_0.address2,c1_0.biller_first_name,c1_0.biller_last_name,c1_0.city,c1_0.date_of_order,c1_0.email_address,c1_0.phone,c1_0.pincode,c1_0.product_ids,c1_0.total_bill,c1_0.user_id from checkout c1_0 where c1_0.order_id=? [22018-214]
+2023-06-05 13:18:36 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "psdnhyctmb"; SQL statement:
+select c1_0.order_id,c1_0.additional_information,c1_0.address1,c1_0.address2,c1_0.biller_first_name,c1_0.biller_last_name,c1_0.city,c1_0.date_of_order,c1_0.email_address,c1_0.phone,c1_0.pincode,c1_0.product_ids,c1_0.total_bill,c1_0.user_id from checkout c1_0 where c1_0.order_id=? [22018-214]
+2023-06-05 13:24:01 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "rqcmmdepsw"; SQL statement:
+select c1_0.order_id,c1_0.additional_information,c1_0.address1,c1_0.address2,c1_0.biller_first_name,c1_0.biller_last_name,c1_0.city,c1_0.email_address,c1_0.phone,c1_0.pincode,c1_0.product_ids,c1_0.total_bill,c1_0.user_id from checkout c1_0 where c1_0.order_id=? [22018-214]
